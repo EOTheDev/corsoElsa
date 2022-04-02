@@ -1,0 +1,103 @@
+body{
+    background-color: crimson;
+}
+.contenitore-padre{
+    display: flex;
+    flex-basis: 45%;
+    
+}
+.contenitore, .contenitore2{
+    background-color: dimgray;
+    padding: 1rem;
+    border: 1rem solid yellow;
+    margin:1rem;
+    position: relative;
+    
+   
+}
+
+.contenuto{
+    width: 150px; 
+    aspect-ratio: 1;
+    margin:1rem;
+    display: inline-block;
+} 
+#primo{
+    background-color: red;
+}
+#secondo{
+    background-color: blue;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+#terzo{
+    position: relative;
+    top:-2rem;
+    background-color: green;
+}
+#quarto{
+    background-color: burlywood;
+}
+
+
+.contenitore2{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.contenuto2{
+    width: 150px; 
+    aspect-ratio: 1;
+    margin:1rem;
+    
+}
+
+#primo2{
+    background-color: red;
+    height: 180px;
+}
+#secondo2{
+    background-color: blue;
+
+}
+#terzo2{
+ 
+    background-color: green;
+    height: 120px;
+}
+#quarto2{
+    background-color: burlywood;
+}
+.contenitore3{
+
+}
+.contenuto3{
+    width: 150px; 
+    aspect-ratio: 1;
+    margin:1rem;
+    
+}
+
+#primo3{
+    background-color: red;
+    height: 180px;
+}
+#secondo3{
+    background-color: blue;
+
+}
+#terzo3{
+ 
+    background-color: green;
+    height: 120px;
+}
+#quarto3{
+    background-color: burlywood;
+}
+.centrato{
+    background-color: aqua;
+    margin: auto 1rem;
+}
